@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #292a39;
+}
+nav {
+    background-color: #555;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+header {
+    background-color: #292a39;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.head-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.image-section {
+    background-image: url("car.jpg");
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.content-section {
+    background-color: #292a39;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+.container {
+    background-color: #242234;
+    color: white;
+    height: 160px;
+    width: 1516px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn {
+    padding: 10px 40px; 
+    background-color: #2a2153;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #1f1d33;
+}
+
+.footer-container {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

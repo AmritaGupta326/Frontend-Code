@@ -1,0 +1,40 @@
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #dfd3ed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 35vh;
+    width: 40vh;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+select {
+    margin-left: 8px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+
+  

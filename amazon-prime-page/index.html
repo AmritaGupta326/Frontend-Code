@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Prime</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- content for heading -->
+    <header>
+        <div class="navbar">
+            <div class="prime-video">
+                <h2>prime video</h2>
+            </div>
+            <div class="home">
+                <select class="search-select1">
+                    <option value="home">Home</option>
+                    <option value="all">All</option>
+                    <option value="movies">Movies</option>
+                    <option value="tv shows">TV shows</option>
+                </select>
+            </div>
+            <div class="store">
+                <select class="search-select2">
+                    <option value="store">Store</option>
+                    <option value="all">All</option>
+                    <option value="rent">Rent</option>
+                    <option value="channels">Channels</option>
+                </select>
+            </div>
+            <div class="live-tv">
+                <h2>Live TV</h2>
+            </div>
+            <div class="nav-search">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <input placeholder="Search" class="search-input">
+            </div>
+            <div class="categories">
+                <select class="search-select3">
+                    <option value="categories">Categories</option>
+                    <option value="anime">Anime</option>
+                    <option value="comedy">Comedy</option>
+                    <option value="drama">Drama</option>
+                    <option value="action and adventure">Action and adventure</option>
+                </select>
+            </div>
+            <div class="try-for-free">
+                <h2>Try for free</h2>
+            </div>
+            <div class="en">
+                <select class="search-select4">
+                    <option value="en">En</option>
+                    <option value="english">English</option>
+                    <option value="hindi">Hindi</option>
+                    <option value="telugu">Telugu</option>
+                    <option value="punjabi">Punjabi</option>
+                    <option value="tamil">Tamil</option>
+                </select>
+            </div>
+            <div class="profile">
+                <select class="search-select5">
+                    <option value="profile">profile</option>
+                    <option value="sign in">Sign In</option>
+                    <option value="help">Help</option>
+                    <option value="watch anywhere">Watch Anywhere</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <div class="image-section"></div>
+
+    <!-- movies-content -->
+    <div id="movie-container">
+        <div class="movie-card" onclick="showDescription('Tiger 3', 'Tiger 3 was released on 12 November 2023 in standard, IMAX, 4DX, and other premium formats, coinciding with Diwali. It received mixed reviews from critics, with praise for its action sequences, music and performances of Kaif and Hashmi, but criticism for its plot and pace.', 'tiger 3.webp')">
+            <img src="tiger 3.webp" alt="tiger-3" class="movie-thumbnail">
+            <h3>Tiger 3</h3>
+        </div>
+    
+        <div class="movie-card" onclick="showDescription('Fighter', 'Fighter is a 2024 Indian Hindi-language action film directed by Siddharth Anand, based on a story he wrote with Ramon Chibb. Produced under Viacom18 Studios and Marflix Pictures, the film stars Hrithik Roshan, Deepika Padukone and Anil Kapoor, and serves as the first installment in a planned aerial action franchise.', 'fighter.webp')">
+            <img src="fighter.webp" alt="Fighter" class="movie-thumbnail">
+            <h3>Fighter</h3>
+        </div>
+
+        <div class="movie-card" onclick="showDescription('The Beekeeper', 'The Beekeeper is a 2024 American action thriller film directed by David Ayer and written by Kurt Wimmer. The film stars Jason Statham, Emmy Raver-Lampman, Josh Hutcherson, Bobby Naderi, Minnie Driver, Phylicia Rashad and Jeremy Irons.One man is brutal campaign for vengeance takes on national stakes after it is revealed he is a former operative of a powerful and clandestine organization known as Beekeepers.', 'the beekeeper.avif')">
+            <img src="the beekeeper.avif" alt="The Beekeeper" class="movie-thumbnail">
+            <h3>The Beekeeper</h3>
+        </div>
+
+        <div class="movie-card" onclick="showDescription('Devara', 'Devara: Part 1 (transl. God) is an upcoming Indian Telugu-language action drama film written and directed by Koratala Siva. Produced by Sudhakar Mikkilineni and Kosaraju Harikrishna under the banners Yuvasudha Arts and N. T. R. Arts, the film stars N. T. Rama Rao Jr. in the titular role, alongside Saif Ali Khan, Janhvi Kapoor, Prakash Raj, Srikanth, Shine Tom Chacko and Narain. An epic action saga set against coastal lands, which briefs about rip-roaring ,emotionally charged incidents in the periodic timeline, also comprises the titular protagonist being the rescuer to deprived and fear to evildoers.', 'devara.jpg')">
+            <img src="devara.jpg" alt="Devara" class="movie-thumbnail">
+            <h3>Devara</h3>
+        </div>
+
+        <div class="movie-card" onclick="showDescription('Hatya', 'A model-singer gets murdered under suspicious circumstances. Can the police crack this complicated case?', 'hatya.jpg')">
+            <img src="hatya.jpg" alt="Hatya" class="movie-thumbnail">
+            <h3>Hatya</h3>
+        </div>
+
+        <div class="movie-card" onclick="showDescription('White Bird', 'White Bird (marketed with the subtitle A Wonder Story) is a 2024 American coming-of-age period drama film directed by Marc Forster from a screenplay by Mark Bomback, based on the 2019 graphic novel of the same name by R. J. Palacio. A spin-off and prequel to Wonder (2017), the film stars Ariella Glaser, Orlando Schwerdt, Bryce Gheisar, Gillian Anderson and Helen Mirren, with Gheisar reprising his role as Julian from Wonder.', 'white bird.avif')">
+            <img src="white bird.avif" alt="White Bird" class="movie-thumbnail">
+            <h3>White Bird</h3>
+        </div>
+    </div>
+
+    <div class="description-modal" id="descriptionModal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeDescriptionModal()">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <img src="" alt="" id="modalThumbnail" style="width: 100%; height: 200px; object-fit: cover; margin-bottom: 1em;">
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
+    <!-- footer part -->
+    <footer>
+        <div class="foot-box">
+            <div class="pages">
+                <a>Terms and Privacy Notice</a>
+                <a>Send us feedback</a>
+                <a>Help</a>
+            </div>
+            <div class="footer">
+                © 1996-2024, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
